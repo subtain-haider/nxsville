@@ -359,7 +359,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-thumb wow fade-in-left" data-wow-delay="400ms">
-                    <img src="assets/img/images/about-img-4.jpg" alt="about">
+                    <img src="assets/img/images/premium-1.jpg" alt="about">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -379,12 +379,12 @@
                         <div class="about-box">
                             <div class="icon"><img src="assets/img/icon/about-icon-4.png" alt="icon"></div>
                             <h3 class="title">Affordable Cost</h3>
-                            <p>Mauris blandit aliquet, eget Tincidunt nibh</p>
+                            <p>Affordable cost ensures that customers can enjoy exceptional quality without bearing a heavy financial burden</p>
                         </div>
                         <div class="about-box">
                             <div class="icon"><img src="assets/img/icon/about-icon-5.png" alt="icon"></div>
                             <h3 class="title">Shot Time Delivery</h3>
-                            <p>tincidunt nibh pulvinar. Sed Porttitor lectus nibh.</p>
+                            <p>Short time delivery focuses on getting products or services to customers as quickly as possible.</p>
                         </div>
                     </div>
                 </div>

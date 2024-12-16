@@ -41,7 +41,7 @@
                                 </li>
                                 <li><a href="about.php">About Us</a></li>
                                 <li>
-                                    <a href="#">Service</a>
+                                    <a href="#">Our products</a>
                                     <ul>
                                         <li><a href="service.php">Service</a></li>
                                         <li><a href="service-details.php">Service Details</a></li>

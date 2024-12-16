@@ -25,13 +25,11 @@
             <div class="col-lg-6">
                 <div class="about-img-wrap wow fade-in-left" data-wow-delay="300ms">
                     <div class="about-img">
-                        <img class="img-1" src="assets/img/images/about-img-2.jpg" alt="about">
+                        <img class="img-1" src="assets/img/images/it-1.jpg" alt="about">
                     </div>
-                    <img class="img-2" src="assets/img/images/about-img-3.jpg" alt="about">
+                    <img class="img-2" src="assets/img/images/it-2.png" alt="about">
                     <div class="about-shape">
                         <div class="shape shape-1"><img src="assets/img/shapes/dot-shape.png" alt="dot"></div>
-                        <div class="shape shape-2"><img src="assets/img/shapes/plane.png" alt="plane"></div>
-                        <div class="shape shape-3"><img src="assets/img/shapes/about-shape-2.png" alt="plane"></div>
                     </div>
                 </div>
             </div>
@@ -39,9 +37,8 @@
                 <div class="about-info">
                     <div class="section-heading heading-2">
                         <h4 class="sub-heading wow fade-in-right" data-wow-delay="400ms">About Us</h4>
-                        <h2 class="section-title wow fade-in-right" data-wow-delay="500ms">NexusVille is a premier
-                            Mobility solutions provider for innovative technologies tailored to governments,
-                            enterprises, and organizations across multiple domains</h2>
+                        <h2 class="section-title wow fade-in-right" data-wow-delay="500ms">A premier
+                            Mobility solutions provider for innovative technologies.</h2>
                         <p class=" wow fade-in-right" data-wow-delay="500ms">To pioneer transformative hard-tech and
                             deep-tech innovations, empowering industries and individuals to thrive in an
                             increasingly interconnected world.</p>
@@ -129,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="about.html" class="lt-primary-btn wow fade-in-right" data-wow-delay="700ms">Read
+                    <a href="about.php" class="lt-primary-btn wow fade-in-right" data-wow-delay="700ms">Read
                         More</a>
                 </div>
             </div>
@@ -157,10 +154,10 @@
                 <div class="swiper-slide">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/img/project/project-1.jpg" alt="img">
+                            <img src="assets/img/images/p-control.png" style="width: 568px; height: 379px" alt="img">
                         </div>
                         <a class="img-popup project-btn" data-autoplay="true" data-vbtype="image"
-                            href="assets/img/project/project-1.jpg">
+                            href="assets/img/images/p-control.png">
                             <i class="fa-regular fa-arrow-right"></i>
                         </a>
                         <div class="project-content">
@@ -172,10 +169,10 @@
                 <div class="swiper-slide">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/img/project/project-2.jpg" alt="img">
+                        <img src="assets/img/images/tolling-mang.jpg" style="width: 568px; height: 379px" alt="img">
                         </div>
                         <a class="img-popup project-btn" data-autoplay="true" data-vbtype="image"
-                            href="assets/img/project/project-2.jpg">
+                            href="assets/img/images/tolling-mang.jpg">
                             <i class="fa-regular fa-arrow-right"></i>
                         </a>
                         <div class="project-content">
@@ -187,10 +184,10 @@
                 <div class="swiper-slide">
                     <div class="project-item">
                         <div class="project-img">
-                            <img src="assets/img/project/project-3.jpg" alt="img">
+                            <img src="assets/img/images/fleet-mang.jpg" style="width: 568px; height: 379px" alt="img">
                         </div>
                         <a class="img-popup project-btn" data-autoplay="true" data-vbtype="image"
-                            href="assets/img/project/project-3.jpg">
+                            href="assets/img/images/fleet-mang.jpg">
                             <i class="fa-regular fa-arrow-right"></i>
                         </a>
                         <div class="project-content">
