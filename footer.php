@@ -3,14 +3,8 @@
             <div class="row footer-wrap pt-100 pb-70">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget">
-                        <a href="#" class="footer-logo"><img src="assets/img/images/logo.jpeg" alt="logo"></a>
+                        <a href="#" class="footer-logo"><img src="assets/img/images/logo-light-2.png" alt="logo"></a>
                         <p>Nexusville solutions providers to the ecommerce industry in India have seen many-fold growth during the pandemic.</p>
-                        <!-- <ul class="footer-social">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                        </ul> -->
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">

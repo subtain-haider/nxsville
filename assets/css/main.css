@@ -1732,20 +1732,12 @@ START: Theme Header CSS
   height: 100%;
   position: relative;
 }
-.header-3 .header .header-bg .container div:nth-child(1):before {
-  background-color: var(--lt-color-theme-primary);
-  content: "";
-  height: 100%;
-  width: 3000px;
-  position: absolute;
-  top: 0;
-  right: 15px;
-}
+
 .header-3 .header .header-bg .container div:nth-child(2) {
   position: relative;
   height: 100%;
 }
-.header-3 .header .header-bg .container div:nth-child(2):before {
+/* .header-3 .header .header-bg .container div:nth-child(2):before {
   background-color: #FFEEE9;
   content: "";
   height: 33px;
@@ -1753,7 +1745,7 @@ START: Theme Header CSS
   position: absolute;
   top: 0;
   left: 80px;
-}
+} */
 @media only screen and (max-width: 991px) {
   .header-3 .header .header-bg .container div:nth-child(2) {
     display: none;
@@ -1861,7 +1853,7 @@ START: Theme Header CSS
   padding: 0;
 }
 .header-3 .header .primary-header-inner .sticky-logo {
-  display: none;
+  /* display: none; */
 }
 .header-3 .header .primary-header-inner .header-right .search-icon {
   font-size: 20px;

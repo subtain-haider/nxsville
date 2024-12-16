@@ -9,8 +9,7 @@
     </div>
 </div>
 
-
-<section class="page-header pt-120 pb-120" data-background="assets/img/bg-img/page-header-bg.jpg">
+<section class="page-header pt-120 pb-120" data-background="assets/img/images/about-us.jpg">
     <div class="container">
         <div class="page-header-content text-center">
             <h1 class="title">About Us</h1>
@@ -19,10 +18,8 @@
         </div>
     </div>
 </section>
-<!-- ./ page-header -->
 
 <section class="about-section about-2 pt-120 pb-120">
-    <div class="truck-2"><img src="assets/img/shapes/truck-2.png" alt="truck"></div>
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -139,7 +136,6 @@
         </div>
     </div>
 </section>
-<!-- ./ about-section -->
 
 <section class="project-section">
     <div class="container">
@@ -207,183 +203,5 @@
         </div>
     </div>
 </section>
-<!-- ./ project-section -->
 
-<!-- <section class="faq-section bg-grey pt-120 pb-120">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="faq-content md-pb-30">
-                    <div class="section-heading heading-2">
-                        <h4 class="sub-heading">Frequently Ask Questions</h4>
-                        <h2 class="section-title">What Mostly People Ask Us About</h2>
-                    </div>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Can i specify a delivery date when ordering?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-                                <div class="accordion-body">
-                                    <p>
-                                        There are many variations of passages of is psum the majority have
-                                        suffered alteration in some we by injected humour,
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What is off page seo link building?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample" style="">
-                                <div class="accordion-body">
-                                    <p>
-                                        There are many variations of passages of is psum the majority have
-                                        suffered alteration in some we by injected humour,
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-                                    How investing in dependend incer
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        There are many variations of passages of is psum the majority have
-                                        suffered alteration in some we by injected humour,
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    High Quality Data Security
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample" style="">
-                                <div class="accordion-body">
-                                    <p>
-                                        There are many variations of passages of is psum the majority have
-                                        suffered alteration in some we by injected humour,
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="faq-img">
-                    <img src="assets/img/images/faq-img.jpg" alt="faq">
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- ./ faq-section -->
-
-<!-- <section class="process-section pt-120 pb-120">
-    <div class="container">
-        <div class="section-heading text-center">
-            <h4 class="sub-heading">Our Work Process​</h4>
-            <h2 class="section-title">Way To Reach Success</h2>
-        </div>
-        <div class="row process-wrap gy-lg-0 gy-4">
-            <div class="process-bg" data-background="assets/img/shapes/process-shape.png"></div>
-            <div class="col-lg-3 col-md-6">
-                <div class="process-item text-center">
-                    <div class="process-icon">
-                        <img src="assets/img/icon/process-icon-1.png" alt="process">
-                        <span class="number">1</span>
-                    </div>
-                    <h3 class="title">Enter your & product details</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="process-item text-center">
-                    <div class="process-icon">
-                        <img src="assets/img/icon/process-icon-2.png" alt="process">
-                        <span class="number">2</span>
-                    </div>
-                    <h3 class="title">Pay your service charges</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="process-item text-center">
-                    <div class="process-icon">
-                        <img src="assets/img/icon/process-icon-3.png" alt="process">
-                        <span class="number">3</span>
-                    </div>
-                    <h3 class="title">Ready to send your goods</h3>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="process-item text-center">
-                    <div class="process-icon">
-                        <img src="assets/img/icon/process-icon-4.png" alt="process">
-                        <span class="number">4</span>
-                    </div>
-                    <h3 class="title">Online Booking</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- ./ process-section -->
-<!-- 
-<section class="video-section pt-120 pb-120">
-    <div class="video-bg" data-background="assets/img/bg-img/video-bg.jpg"></div>
-    <div class="container">
-        <div class="section-heading text-center white-content">
-            <h4 class="sub-heading">What We Do</h4>
-            <h2 class="section-title">Professional Main Services</h2>
-            <p>All the Lorem Ipsum generators on the Internet tend to repeated this predefined chunks as necessary,
-                making this the first generator on the Internet.</p>
-        </div>
-        <div class="video-box row">
-            <div class="col-md-6">
-                <div class="video-content">
-                    <div class="section-heading heading-2">
-                        <h2 class="section-title">Kind Affordable Courier Transport.</h2>
-                        <p>We provide services in the field of road, sea, rail, air transportation and a full range
-                            of warehousing services. We provide services in the field of road, sea, rail, air
-                            transportation and a full range of warehousing services.</p>
-                        <a href="#" class="lt-primary-btn">Choose Plan</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="video-img">
-                    <img src="assets/img/images/video-img.jpg" alt="video">
-                    <div class="video-btn-wrap">
-                        <a class="video-popup video-btn" data-autoplay="true" data-vbtype="video"
-                            href="https://youtu.be/iyd7qUH3oH0">
-                            <img src="assets/img/icon/video-icon-3.png" alt="icon">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
 <?php include 'footer.php'; ?>

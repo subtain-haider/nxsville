@@ -21,19 +21,19 @@ START: Home 5 CSS
                 background-color: transparent;
                 .primary-header-inner{
                     background-color: transparent;
-                    .header-logo{
-                        .dark{
-                            display: none;
-                            @include breakpoint(md){
-                                display: block;
-                            }
-                        }
-                        .light{
-                            @include breakpoint(md){
-                                display: none;
-                            }
-                        }
-                    }
+                    // .header-logo{
+                    //     .dark{
+                    //         display: none;
+                    //         @include breakpoint(md){
+                    //             display: block;
+                    //         }
+                    //     }
+                    //     .light{
+                    //         @include breakpoint(md){
+                    //             display: none;
+                    //         }
+                    //     }
+                    // }
                     .sub-menu{
                         li{
                             a{

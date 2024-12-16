@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -17,103 +18,68 @@
     <link rel="stylesheet" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body class="header-3">
     <!-- header-area-start -->
     <header class="header sticky-active">
-        <div class="header-bg">
-            <div class="container">
-                <div></div>
-                <div></div>
-            </div>
-        </div>
         <div class="container">
-            <div class="main-header-inner">
-                <div class="main-header-left">
-                    <div class="header-logo d-lg-block">
+            <div class="primary-header">
+                <div class="primary-header-inner">
+                    <div class="header-logo sticky-logo">
                         <a href="index.php">
-                            <img src="assets/img/images/logo.jpeg" alt="Logo">
+                            <img src="assets/img/images/logo-light-2.png" alt="Logo">
                         </a>
                     </div>
-                </div>
-                <div class="main-header-right">
-                    <div class="top-bar">
-                        <div class="top-bar-inner">
-                            <div class="top-bar-left">
-                                <ul class="top-bar-list">
-                                </ul>
-                            </div>
-                            <div class="top-bar-right">
-                                <ul class="top-social">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="primary-header">
-                        <div class="primary-header-inner">
-                            <div class="header-logo sticky-logo">
-                                <a href="index.php">
-                                    <img src="assets/img/images/logo.jpeg" alt="Logo">
-                                </a>
-                            </div>
-                            <div class="header-menu-wrap">
-                                <div class="mobile-menu-items">
-                                    <ul class="sub-menu">
-                                        <li class="active">
-                                            <a href="index.php">Home</a>
-                                            <ul>
-                                                <li><a href="index.php">Home Three</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="about.php">About Us</a></li>
-                                        <li>
-                                            <a href="#">Service</a>
-                                            <ul>
-                                                <li><a href="service.php">Service</a></li>
-                                                <li><a href="service-details.php">Service Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Pages</a>
-                                            <ul>
-                                                <li><a href="team.php">Team</a></li>
-                                                <li><a href="team-details.php">Team Details</a></li>
-                                                <li><a href="portfolio.php">Portfolio</a></li>
-                                                <li><a href="portfolio-details.php">Portfolio Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="blog-grid.php">Blog</a>
-                                            <ul>
-                                                <li><a href="blog-grid.php">Blog Grid</a></li>
-                                                <li><a href="blog-details.php">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact-us.php">Contact</a></li>
+                    <div class="header-menu-wrap">
+                        <div class="mobile-menu-items">
+                            <ul class="sub-menu">
+                                <li class="active">
+                                    <a href="index.php">Home</a>
+                                    <ul>
+                                        <li><a href="index.php">Home Three</a></li>
                                     </ul>
-                                </div>
-                            </div>
-                            <!-- /.header-menu-wrap -->
-                            <div class="header-right">
-                                <div class="search-icon dl-search-icon">
-                                    <i class="fa-light fa-magnifying-glass"></i>
-                                </div>
-                                <a href="contact.php" class="lt-primary-btn">Track Parcel</a>
-                                <div class="header-right-item">
-                                    <a href="javascript:void(0)" class="mobile-side-menu-toggle d-lg-none">
-                                        <i class="fa-sharp fa-solid fa-bars"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- /.header-right -->
+                                </li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li>
+                                    <a href="#">Service</a>
+                                    <ul>
+                                        <li><a href="service.php">Service</a></li>
+                                        <li><a href="service-details.php">Service Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Pages</a>
+                                    <ul>
+                                        <li><a href="team.php">Team</a></li>
+                                        <li><a href="team-details.php">Team Details</a></li>
+                                        <li><a href="portfolio.php">Portfolio</a></li>
+                                        <li><a href="portfolio-details.php">Portfolio Details</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="blog-grid.php">Blog</a>
+                                    <ul>
+                                        <li><a href="blog-grid.php">Blog Grid</a></li>
+                                        <li><a href="blog-details.php">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact-us.php">Contact</a></li>
+                            </ul>
                         </div>
-                        <!-- /.primary-header-inner -->
                     </div>
-                    <!-- /.primary-header -->
+                    <!-- /.header-menu-wrap -->
+                    <div class="header-right">
+                        <div class="search-icon dl-search-icon">
+                        </div>
+                        <div class="header-right-item">
+                            <a href="javascript:void(0)" class="mobile-side-menu-toggle d-lg-none">
+                                <i class="fa-sharp fa-solid fa-bars"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /.header-right -->
                 </div>
+                <!-- /.primary-header-inner -->
             </div>
         </div>
     </header>
