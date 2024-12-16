@@ -134,7 +134,7 @@
     </div>
 </section>
 
-<section class="project-section">
+<section class="project-section mb-5">
     <div class="container">
         <div class="project-top">
             <div class="section-heading">
