@@ -35,9 +35,6 @@
                             <ul class="sub-menu">
                                 <li class="active">
                                     <a href="index.php">Home</a>
-                                    <ul>
-                                        <li><a href="index.php">Home Three</a></li>
-                                    </ul>
                                 </li>
                                 <li><a href="about.php">About Us</a></li>
                                 <li>
