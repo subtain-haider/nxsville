@@ -13,7 +13,7 @@
     <div class="container">
         <div class="page-header-content text-center">
             <h1 class="title">About Us</h1>
-            <h4 class="sub-title"><a href="index.html">Home </a><span>></span><a href="#" class="inner-page"> About
+            <h4 class="sub-title"><a href="index.php">Home </a><span>></span><a href="#" class="inner-page"> About
                     Us</a></h4>
         </div>
     </div>
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="about.php" class="lt-primary-btn wow fade-in-right" data-wow-delay="700ms">Read
+                    <a  class="lt-primary-btn wow fade-in-right" data-wow-delay="700ms">Read
                         More</a>
                 </div>
             </div>
@@ -162,14 +162,14 @@
                         </a>
                         <div class="project-content">
                             <span>Distribution</span>
-                            <h3 class="title"><a href="portfolio-details.html">Shipping Transport</a></h3>
+                            <h3 class="title"><a>Shipping Transport</a></h3>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="project-item">
                         <div class="project-img">
-                        <img src="assets/img/images/tolling-mang.jpg" style="width: 568px; height: 379px" alt="img">
+                            <img src="assets/img/images/tolling-mang.jpg" style="width: 568px; height: 379px" alt="img">
                         </div>
                         <a class="img-popup project-btn" data-autoplay="true" data-vbtype="image"
                             href="assets/img/images/tolling-mang.jpg">
@@ -177,7 +177,7 @@
                         </a>
                         <div class="project-content">
                             <span>Distribution</span>
-                            <h3 class="title"><a href="portfolio-details.html">Road Transport</a></h3>
+                            <h3 class="title"><a>Road Transport</a></h3>
                         </div>
                     </div>
                 </div>
@@ -192,7 +192,7 @@
                         </a>
                         <div class="project-content">
                             <span>Distribution</span>
-                            <h3 class="title"><a href="portfolio-details.html">Cargo Transport</a></h3>
+                            <h3 class="title"><a>Cargo Transport</a></h3>
                         </div>
                     </div>
                 </div>

@@ -38,33 +38,34 @@
                                 </li>
                                 <li><a href="about.php">About Us</a></li>
                                 <li>
-                                    <a href="#">Our products</a>
+                                    <!-- <a href="#">Our products</a> -->
                                     <ul>
-                                        <li><a href="service.php">Service</a></li>
-                                        <li><a href="service-details.php">Service Details</a></li>
+                                        <!-- <li><a href="service.php">Service</a></li> -->
+                                        <!-- <li><a href="service-details.php">Service Details</a></li> -->
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Pages</a>
+                                    <!-- <a href="#">Pages</a> -->
                                     <ul>
-                                        <li><a href="team.php">Team</a></li>
-                                        <li><a href="team-details.php">Team Details</a></li>
-                                        <li><a href="portfolio.php">Portfolio</a></li>
-                                        <li><a href="portfolio-details.php">Portfolio Details</a></li>
+                                        <!-- <li><a href="team.php">Team</a></li> -->
+                                        <!-- <li><a href="team-details.php">Team Details</a></li> -->
+                                        <!-- <li><a href="portfolio.php">Portfolio</a></li> -->
+                                        <!-- <li><a href="portfolio-details.php">Portfolio Details</a></li> -->
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="blog-grid.php">Blog</a>
+                                    <!-- <a href="blog-grid.php">Blog</a> -->
                                     <ul>
-                                        <li><a href="blog-grid.php">Blog Grid</a></li>
-                                        <li><a href="blog-details.php">Blog Details</a></li>
+                                        <!-- <li><a href="blog-grid.php">Blog Grid</a></li> -->
+                                        <!-- <li><a href="blog-details.php">Blog Details</a></li> -->
                                     </ul>
                                 </li>
-                                <li><a href="contact-us.php">Contact</a></li>
+                                <li>
+                                    <!-- <a href="contact-us.php">Contact</a> -->
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <!-- /.header-menu-wrap -->
                     <div class="header-right">
                         <div class="search-icon dl-search-icon">
                         </div>
@@ -74,14 +75,10 @@
                             </a>
                         </div>
                     </div>
-                    <!-- /.header-right -->
                 </div>
-                <!-- /.primary-header-inner -->
             </div>
         </div>
     </header>
-    <!-- /.Main Header -->
-
     <div id="popup-search-box">
         <div class="box-inner-wrap d-flex align-items-center">
             <form id="form" action="#" method="get" role="search">
