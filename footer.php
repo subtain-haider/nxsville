@@ -32,7 +32,7 @@
                     <h3 class="widget-header">Contact Us</h3>
                     <ul class="widget-list adress-list">
                         <li><i class="fa-regular fa-envelope"></i><a href="mailto:info@nxsville.com">info@nxsville.com</a></li>
-                        <li><i class="fa-sharp fa-regular fa-location-dot"></i>Address</li>
+                        <li><i class="fa-sharp fa-regular fa-location-dot"></i>Address: Dubai, Shaik Zayed Road, United Arab Emirates</li>
                     </ul>
                 </div>
             </div>
