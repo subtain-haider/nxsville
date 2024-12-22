@@ -11,12 +11,12 @@
 
 
 
-<section class="page-header pt-120 pb-120" data-background="assets/img/bg-img/page-header-bg.jpg">
+<section class="page-header pt-120 pb-120" data-background="assets/img/images/blogcover.jpg">
     <div class="container">
         <div class="page-header-content text-center">
-            <h1 class="title">Blog Grid</h1>
-            <h4 class="sub-title"><a href="index.html">Home </a><span>></span><a href="blog-grid.html"
-                    class="inner-page"> Blog Grid</a></h4>
+            <h1 class="title">Blogs</h1>
+            <h4 class="sub-title"><a href="index.php">Home </a><span>></span><a href="blog-grid.php"
+                    class="inner-page"> Blogs</a></h4>
         </div>
     </div>
 </section>
@@ -28,21 +28,21 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-card">
                     <div class="post-thumb">
-                        <img src="assets/img/blog/post-1.jpg" alt="post">
+                        <img src="assets/img/images/b1.jpg" alt="post">
                     </div>
                     <div class="post-content-wrap">
                         <div class="post-content">
-                            <ul class="post-meta">
+                            <!-- <ul class="post-meta">
                                 <li><i class="fa-regular fa-tag"></i>Air Freight</li>
                                 <li><i class="fa-regular fa-tag"></i>3 Comment</li>
-                            </ul>
-                            <h3 class="title"><a href="blog-details.html">How to Get Hired in the Logistic Industry.</a>
+                            </ul> -->
+                            <h3 class="title"><a href="blog-details.php?id=1">The Future of Parking Inspections – How AI is Transforming Urban Parking Management.</a>
                             </h3>
                         </div>
                         <div class="post-bottom">
-                            <a href="blog-details.html" class="read-more">Read More<i
+                            <a href="blog-details.php" class="read-more">Read More<i
                                     class="fa-regular fa-arrow-right"></i></a>
-                            <img class="post-author" src="assets/img/blog/post-author-1.png" alt="author">
+                            <img class="post-author" src="assets/img/images/b1.jpg" alt="author">
                         </div>
                     </div>
                 </div>
@@ -50,21 +50,21 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-card">
                     <div class="post-thumb">
-                        <img src="assets/img/blog/post-2.jpg" alt="post">
+                        <img src="assets/img/images/b2.jpg" alt="post">
                     </div>
                     <div class="post-content-wrap">
                         <div class="post-content">
-                            <ul class="post-meta">
+                            <!-- <ul class="post-meta">
                                 <li><i class="fa-regular fa-tag"></i>Air Freight</li>
                                 <li><i class="fa-regular fa-tag"></i>3 Comment</li>
-                            </ul>
-                            <h3 class="title"><a href="blog-details.html">Don’t get stuck with the rest, truck with.</a>
+                            </ul> -->
+                            <h3 class="title"><a href="blog-details.php">Smart Parking Management – The Key to Solving Urban Congestion and Compliance Issues.</a>
                             </h3>
                         </div>
                         <div class="post-bottom">
-                            <a href="blog-details.html" class="read-more">Read More<i
+                            <a href="blog-details.php" class="read-more">Read More<i
                                     class="fa-regular fa-arrow-right"></i></a>
-                            <img class="post-author" src="assets/img/blog/post-author-2.png" alt="author">
+                            <img class="post-author" src="assets/img/images/b2.jpg" alt="author">
                         </div>
                     </div>
                 </div>
@@ -72,24 +72,24 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-card">
                     <div class="post-thumb">
-                        <img src="assets/img/blog/post-3.jpg" alt="post">
+                        <img src="assets/img/images/b3.jpg" alt="post">
                     </div>
                     <div class="post-content-wrap">
                         <div class="post-content">
-                            <ul class="post-meta">
+                            <!-- <ul class="post-meta">
                                 <li><i class="fa-regular fa-tag"></i>Air Freight</li>
                                 <li><i class="fa-regular fa-tag"></i>3 Comment</li>
-                            </ul>
-                            <h3 class="title"><a href="#">We ensures you the best quality services</a></h3>
+                            </ul> -->
+                            <h3 class="title"><a href="blog-details.php?id=3"> 5 Ways Smart Parking Inspection Improves Efficiency and Reduces Costs</a></h3>
                         </div>
                         <div class="post-bottom">
-                            <a href="#" class="read-more">Read More<i class="fa-regular fa-arrow-right"></i></a>
-                            <img class="post-author" src="assets/img/blog/post-author-3.png" alt="author">
+                            <a href="blog-details.php?id=3" class="read-more">Read More<i class="fa-regular fa-arrow-right"></i></a>
+                            <img class="post-author" src="assets/img/images/b3.jpg" alt="author">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <!-- <div class="col-lg-4 col-md-6">
                 <div class="post-card">
                     <div class="post-thumb">
                         <img src="assets/img/blog/post-8.jpg" alt="post">
@@ -100,11 +100,11 @@
                                 <li><i class="fa-regular fa-tag"></i>Air Freight</li>
                                 <li><i class="fa-regular fa-tag"></i>3 Comment</li>
                             </ul>
-                            <h3 class="title"><a href="blog-details.html">The perfect Nexusville partner for you.</a>
+                            <h3 class="title"><a href="blog-details.php">The perfect Nexusville partner for you.</a>
                             </h3>
                         </div>
                         <div class="post-bottom">
-                            <a href="blog-details.html" class="read-more">Read More<i
+                            <a href="blog-details.php" class="read-more">Read More<i
                                     class="fa-regular fa-arrow-right"></i></a>
                             <img class="post-author" src="assets/img/blog/post-author-1.png" alt="author">
                         </div>
@@ -122,11 +122,11 @@
                                 <li><i class="fa-regular fa-tag"></i>Air Freight</li>
                                 <li><i class="fa-regular fa-tag"></i>3 Comment</li>
                             </ul>
-                            <h3 class="title"><a href="blog-details.html">Future Is Bright When You Are More
+                            <h3 class="title"><a href="blog-details.php">Future Is Bright When You Are More
                                     Prepared.</a></h3>
                         </div>
                         <div class="post-bottom">
-                            <a href="blog-details.html" class="read-more">Read More<i
+                            <a href="blog-details.php" class="read-more">Read More<i
                                     class="fa-regular fa-arrow-right"></i></a>
                             <img class="post-author" src="assets/img/blog/post-author-2.png" alt="author">
                         </div>
@@ -144,22 +144,22 @@
                                 <li><i class="fa-regular fa-tag"></i>Air Freight</li>
                                 <li><i class="fa-regular fa-tag"></i>3 Comment</li>
                             </ul>
-                            <h3 class="title"><a href="blog-details.html">Moving your products across all borders.</a>
+                            <h3 class="title"><a href="blog-details.php">Moving your products across all borders.</a>
                             </h3>
                         </div>
                         <div class="post-bottom">
-                            <a href="blog-details.html" class="read-more">Read More<i
+                            <a href="blog-details.php" class="read-more">Read More<i
                                     class="fa-regular fa-arrow-right"></i></a>
                             <img class="post-author" src="assets/img/blog/post-author-3.png" alt="author">
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="pagination-wrap">
             <ul class="pagination-list">
                 <li class="active"><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
+                <!-- <li><a href="#">2</a></li> -->
                 <li><a href="#"><i class="fa-solid fa-chevrons-right"></i></a></li>
             </ul>
         </div>

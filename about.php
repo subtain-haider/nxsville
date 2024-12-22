@@ -126,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <a  class="lt-primary-btn wow fade-in-right" data-wow-delay="700ms">Read
+                    <a class="lt-primary-btn wow fade-in-right" data-wow-delay="700ms">Read
                         More</a>
                 </div>
             </div>

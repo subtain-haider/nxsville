@@ -38,6 +38,13 @@
                                 </li>
                                 <li><a href="about.php">About Us</a></li>
                                 <li>
+                                    <a href="blog-grid.php">Blog</a>
+                                    <ul>
+                                        <!-- <li><a href="blog-grid.php">Blog Grid</a></li> -->
+                                        <!-- <li><a href="blog-details.php">Blog Details</a></li> -->
+                                    </ul>
+                                </li>
+                                <li>
                                     <!-- <a href="#">Our products</a> -->
                                     <ul>
                                         <!-- <li><a href="service.php">Service</a></li> -->
@@ -53,13 +60,7 @@
                                         <!-- <li><a href="portfolio-details.php">Portfolio Details</a></li> -->
                                     </ul>
                                 </li>
-                                <li>
-                                    <!-- <a href="blog-grid.php">Blog</a> -->
-                                    <ul>
-                                        <!-- <li><a href="blog-grid.php">Blog Grid</a></li> -->
-                                        <!-- <li><a href="blog-details.php">Blog Details</a></li> -->
-                                    </ul>
-                                </li>
+                               
                                 <li>
                                     <!-- <a href="contact-us.php">Contact</a> -->
                                 </li>

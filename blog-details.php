@@ -9,13 +9,85 @@
     </div>
 </div>
 
+<?php
+// Sample Blog Data
+$blogs = [
+    [
+        'id' => 1,
+        'title' => 'The Future of Parking Inspections – How AI is Transforming Urban Parking Management',
+        'intro' => ' In todays fast-paced urban environments, effective parking management has become a pressing challenge. Traditional parking inspections rely heavily on manual processes, requiring significant manpower and resources. This often leads to inefficiencies, errors, and increased costs. As cities grow, these issues only intensify. However, advancements in Artificial Intelligence (AI) are transforming the landscape of parking inspections, offering smarter, faster, and more cost-effective solutions',
+        'content' => '<strong>AI-Powered Parking Solutions:</strong> <br> AI-powered parking systems, like Nexusville Products, are revolutionizing the inspection process. By leveraging advanced technologies, these systems automate parking enforcement, detect violations in real-time, and optimize patrol routes. AI enhances accuracy and reduces the need for manual intervention, enabling seamless operations <br>
+        <strong>  Key Features of AI-Based Inspections: </strong> <br>
+       <strong> Driver Authentication: </strong> <br>  AI validates parking permits and payment status instantly.
+       <strong><br>  Smart Cameras: <br></strong>  Equipped with 360-degree detection, cameras identify license plates, vehicle types, and parking zone compliance.
+       <strong> <br>Optimized Routes:<br> </strong>AI algorithms determine the most efficient patrol paths to cover large areas quickly.<br>
+       <strong> Benefits for Cities and Businesses: </strong> <br>
+       <strong> Cost Savings:</strong> <br> Reduced reliance on manual inspectors lowers operational expenses. <br>
+        <strong>Scalability:</strong> <br> Easily expand coverage to new areas without additional manpower. <br>
+        <strong>Improved Compliance: </strong> <br> Faster detection and enforcement reduce violations and enhance traffic flow. <br>
+        <strong>Conclusion:</strong> <br> AI-driven parking solutions, like Nexusville Products, are redefining urban mobility. They provide municipalities and businesses with the tools needed to create smarter, more efficient parking systems, ensuring compliance and reducing costs. The future of parking inspection is here, and it\s powered by AI.',
+        'tags' => ['AI', 'Parking', 'Urban'],
+        'image' => 'assets/img/images/b1.jpg',
+        'cover' => 'assets/img/images/cover-blog-1.jpg',
+        'date' => '27 March 2024',
+        'author' => 'Tech',
+    ],
+    [
+        'id' => 2,
+        'title' => 'Smart Parking Management – The Key to Solving Urban Congestion and Compliance Issues',
+        'intro' => 'Urban areas around the world face growing challenges with parking congestion, unauthorized parking, and limited enforcement capabilities. As cities expand, managing parking spaces effectively becomes critical for reducing traffic issues and improving urban mobility. Smart parking management systems offer innovative solutions to address these challenges, transforming how cities handle parking operations',
+        'content' => '<strong>Smart Parking Systems: </strong> Smart parking systems use technology to automate and streamline parking operations. From managing parking fees to enforcing rules, these systems ensure efficient operations and compliance. Solutions like Nexusville Products combine AI, data analytics, and seamless integrations to deliver unmatched efficiency. <br> 
+        <strong>Smart Parking Systems:</strong> <br> Smart parking systems use technology to automate and streamline parking operations. From managing parking fees to enforcing rules, these systems ensure efficient operations and compliance. Solutions like Nexusville Products combine AI, data analytics, and seamless integrations to deliver unmatched efficiency
+        ',
+        'tags' => ['Smart Parking', 'Urban', 'Compliance'],
+        'image' => 'assets/img/images/b2.jpg',
+        'cover' => 'assets/img/images/cover-blog-2.jpg',
+        'date' => '27 March 2024',
+        'author' => 'Admin',
+    ],
+    [
+        'id' => 3,
+        'title' => '5 Ways Smart Parking Inspection Improves Efficiency and Reduces Costs',
+        'intro' => 'Introduction: Managing parking spaces in bustling urban areas is often costly and inefficient. Manual inspections require significant manpower, resulting in higher labor costs and slower response times. Smart parking inspection systems, such as Nexusville Products, offer a solution to these challenges by automating processes and improving efficiency. In this blog, we explore five key ways these systems deliver cost savings and operational improvements.',
+        'content' => 'Key Ways to Boost Efficiency and Savings:
+      <strong>  Reduced Labor Costs:</strong> <br>
+        Smart inspection systems minimize the need for manual inspectors, reducing labor costs while maintaining high accuracy. <br>
+       <strong> Optimized Routes:</strong> <br>
+        AI algorithms optimize patrol routes, saving time and fuel expenses. <br>
+        <strong>Real-Time Processing: </strong><br>
+        Immediate violation detection allows for faster response times and improved enforcement. <br>
+        <strong>Seamless Operations:</strong> <br>
+        Offline modes ensure inspections continue without interruption during connectivity issues, improving reliability. <br>
+        <strong>Scalability:</strong> <br>
+        Easily expand inspection coverage to new areas without hiring additional staff, enabling cost-effective growth.<br>
+       <strong> Technological Features Driving Savings:</strong> <br> Nexusville Products’s features ensure maximum efficiency: <br>
+        360-degree detection for accurate monitoring. <br>
+        Real-time communication with operation centers. <br>
+        High-speed patrol capabilities of up to 60 kilometers per hour. <br>
+        Robust design that withstands harsh environmental conditions. <br>
+        <strong>Conclusion:</strong> <br> Smart parking inspection systems, like Nexusville Products, provide cities and businesses with the tools needed to streamline operations, reduce costs, and improve compliance. With AI-powered features and scalable solutions, these systems are reshaping the future of parking management.
+        ',
+        'tags' => ['Parking', 'Efficiency', 'Costs'],
+        'image' => 'assets/img/v/images/b3.jpg',
+        'cover' => 'assets/img/images/cover-blog-3.jpg',
+        'date' => '27 March 2024',
+        'author' => 'Admin',
+    ]
+];
 
+// Get Blog ID from URL (default to first blog)
+$blogId = isset($_GET['id']) ? intval($_GET['id']) : 1;
 
-<section class="page-header pt-120 pb-120" data-background="assets/img/bg-img/page-header-bg.jpg">
+// Find Blog Data
+$blog = array_filter($blogs, fn($b) => $b['id'] === $blogId);
+$blog = reset($blog);
+?>
+
+<section class="page-header pt-120 pb-120" data-background="<?= $blog['cover'] ?>"
     <div class="container">
         <div class="page-header-content text-center">
-            <h1 class="title">Blog Details</h1>
-            <h4 class="sub-title"><a href="index.html">Home </a><span>></span><a href="blog-details.html" class="inner-page"> Blog Details</a></h4>
+            <h1 class="title"><?= $blog['title'] ?></h1>
+            <h4 class="sub-title"><a href="index.php">Home </a><span>></span><a href="blog-details.php?id=<?= $blog['id'] ?>" class="inner-page"><?= $blog['title'] ?></a></h4>
         </div>
     </div>
 </section>
@@ -27,215 +99,31 @@
             <div class="col-lg-8">
                 <div class="blog-details-content md-pb-30">
                     <div class="blog-details-img mb-20">
-                        <img src="assets/img/blog/blog-details-img.jpg" alt="post">
+                        <img src="<?= $blog['image'] ?>" alt="post">
                     </div>
                     <ul class="post-meta">
-                        <li><i class="fa-regular fa-user"></i>By Tech</li>
-                        <li><i class="fa-light fa-calendar"></i>27 March 2024</li>
-                        <li><i class="fa-regular fa-comment"></i>05 Comment</li>
+                        <li><i class="fa-regular fa-user"></i>By <?= $blog['author'] ?></li>
+                        <li><i class="fa-light fa-calendar"></i><?= $blog['date'] ?></li>
                     </ul>
                     <div class="blog-title-content">
-                        <h2 class="details-title">Quickly reinvent user friendly models.</h2>
-                        <p class="mb-30">UX design refers to the term “user experience design”, while UI stands for “user interface design”. Both elements are crucial to a product and work closely together. But despite their professional relationship, the roles themselves are quite different, referring to very different aspects of the product development process and the design discipline.</p>
-                        <p>Many UX designers, developers, and entrepreneurs take pride in how hard it was to solve hard challenges. I don’t. I hope to convince you not to either. I’m known for enjoying the process of solving impossible problems, but the way I do it is not obvious.</p>
+                        <h2 class="details-title"><?= $blog['title'] ?></h2>
+                        <p class="mb-30"><?= $blog['intro'] ?></p>
+                        <p><?= $blog['content'] ?></p>
                     </div>
-                    <blockquote>
+                    <!-- You can comment out unused sections -->
+                    <!-- <blockquote>
                         What I find remarkable is that this text has been the industry's standard dummy text ever since some printer in the 1500s took a galley.
                         <span>Douglas Lyphe</span>
-                    </blockquote>
-                    <div class="details-video-content">
-                        <div class="details-video-thumb">
-                            <img src="assets/img/blog/details-video-img.jpg" alt="blog">
-                            <a class="video-popup blog-video" data-autoplay="true" data-vbtype="video" href="https://youtu.be/iyd7qUH3oH0">
-                                <i class="fa-sharp fa-solid fa-play"></i>
-                            </a>
-                        </div>
-                        <h3 class="title">Target goals examples for business</h3>
-                        <p>Pellentesque dignissim malesuada varius et semper semper rutrum ad risus felis eros. Cursus libero viverra tempus netus diam vestibulum lorem tincidunt congue porta. Non ligula egestas commodo massa. Lorem non gravida risus felis rutrum.</p>
-                    </div>
-                    <div class="layout-social-box">
-                        <div class="box-left">
-                            <h4 class="tag">Tag:</h4>
-                            <ul>
-                                <li><a href="#">Health</a></li>
-                                <li><a href="#">Wellness</a></li>
-                                <li><a href="#">Workout</a></li>
-                            </ul>
-                        </div>
-                        <div class="box-right">
-                            <h4 class="share">Share:</h4>
-                            <ul class="social-list">
-                                <li>
-                                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="next-prev-post">
-                        <div class="prev-post post-wrap">
-                            <a href="#" class="post-btn">Prev Post</a>
-                            <a href="#" class="post-title">How Does Screen Work</a>
-                        </div>
-                        <div class="next-post post-wrap">
-                            <a href="#" class="post-btn">Next Post</a>
-                            <a href="#" class="post-title">How Does Screen Work</a>
-                        </div>
-                    </div>
-                    <div class="comment-area">
-                        <h3 class="comment-title">3 Comments</h3>
-                        <div class="comment-item">
-                            <div class="comment-thumb">
-                                <img src="assets/img/blog/author-1.png" alt="author" />
-                            </div>
-                            <div class="comment-info">
-                                <h3 class="author">Russell Sprout <span>march 26,2022 at 10:47 pm</span></h3>
-                                <p>
-                                    Phasellus ac eleifend nunc. Aenean efficitur, augue a tristique mollis, nulla leo dictum nunc, viverra magna sapien ut dolor.
-                                </p>
-                                <a href="#" class="reply">Reply</a>
-                            </div>
-                        </div>
-                        <div class="comment-item item-2">
-                            <div class="comment-thumb">
-                                <img src="assets/img/blog/author-2.png" alt="author" />
-                            </div>
-                            <div class="comment-info">
-                                <h3 class="author">Russell Sprout <span>march 26,2022 at 10:47 pm</span></h3>
-                                <p>
-                                    Phasellus ac eleifend nunc. Aenean efficitur, augue a tristique mollis, nulla leo dictum nunc, viverra magna sapien ut dolor.
-                                </p>
-                                <a href="#" class="reply">Reply</a>
-                            </div>
-                        </div>
-                        <div class="comment-item">
-                            <div class="comment-thumb">
-                                <img src="assets/img/blog/author-3.png" alt="author" />
-                            </div>
-                            <div class="comment-info">
-                                <h3 class="author">Russell Sprout <span>march 26,2022 at 10:47 pm</span></h3>
-                                <p>
-                                    Phasellus ac eleifend nunc. Aenean efficitur, augue a tristique mollis, nulla leo dictum nunc, viverra magna sapien ut dolor.
-                                </p>
-                                <a href="#" class="reply">Reply</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-form-wrap">
-                        <h3 class="form-title">Leave a comment</h3>
-                        <p>Your email address will not be published. Required fields are marked *</p>
-                        <div class="blog-form">
-                            <form action="contact.php" method="post" id="ajax_contact" class="form-horizontal">
-                                <div class="form-group row">
-                                    <div class="col-md-6">
-                                        <input
-                                            type="text"
-                                            id="fullname"
-                                            name="fullname"
-                                            class="form-control"
-                                            placeholder="Name*"
-                                            required="" />
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input
-                                            type="email"
-                                            id="email"
-                                            name="email"
-                                            class="form-control"
-                                            placeholder="Email*"
-                                            required="" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <div class="col-md-12">
-                                        <textarea
-                                            id="message"
-                                            name="message"
-                                            cols="30"
-                                            rows="5"
-                                            class="form-control address"
-                                            placeholder="Comment*"
-                                            required=""></textarea>
-                                    </div>
-                                </div>
-                                <button id="submit" class="lt-primary-btn" type="submit">Post Comment</button>
-                            </form>
-                        </div>
-                    </div>
+                    </blockquote> -->
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="sidebar-widget">
-                    <h3 class="widget-title">Search Here</h3>
-                    <div class="search-box">
-                        <form action="" class="search-form">
-                            <input type="text" class="form-control" placeholder="Search">
-                            <button class="search-btn" type="button">
-                                <i class="fa-light fa-magnifying-glass"></i>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                <div class="sidebar-widget">
-                    <h3 class="widget-title">Categories</h3>
-                    <ul class="category-list">
-                        <li><a href="#">Product Design</a><span>(03)</span></li>
-                        <li><a href="#">Web Development</a><span>(01)</span></li>
-                        <li><a href="#">Mobile Solutions</a><span>(02)</span></li>
-                        <li><a href="#">Branding Design</a><span>(03)</span></li>
-                        <li><a href="#">Custom Solutions</a><span>(04)</span></li>
-                        <li><a href="#">Digital Marketing</a><span>(07)</span></li>
-                    </ul>
-                </div>
-                <div class="sidebar-widget">
-                    <h3 class="widget-title">Recent Post</h3>
-                    <div class="sidebar-post">
-                        <img src="assets/img/blog/sidebar-thumb-1.jpg" alt="post">
-                        <div class="post-content">
-                            <ul class="post-meta">
-                                <li><i class="fa-light fa-calendar"></i>27 March 2024</li>
-                            </ul>
-                            <h3 class="title"><a href="#">Quickly Reinvent User Friendly Models.</a></h3>
-                        </div>
-                    </div>
-                    <div class="sidebar-post">
-                        <img src="assets/img/blog/sidebar-thumb-2.jpg" alt="post">
-                        <div class="post-content">
-                            <ul class="post-meta">
-                                <li><i class="fa-light fa-calendar"></i>27 March 2024</li>
-                            </ul>
-                            <h3 class="title"><a href="#">Authoritatively reinvent functionaliz.</a></h3>
-                        </div>
-                    </div>
-                    <div class="sidebar-post">
-                        <img src="assets/img/blog/sidebar-thumb-3.jpg" alt="post">
-                        <div class="post-content">
-                            <ul class="post-meta">
-                                <li><i class="fa-light fa-calendar"></i>27 March 2024</li>
-                            </ul>
-                            <h3 class="title"><a href="#">UX Checklists For Interface Designers.</a></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="sidebar-widget sticky-widget">
                     <h3 class="widget-title">Tags</h3>
                     <ul class="tags">
-                        <li><a href="#">Design</a></li>
-                        <li><a href="#">User Interface</a></li>
-                        <li><a href="#">startup</a></li>
-                        <li><a href="#">Node Js</a></li>
-                        <li><a href="#">C++</a></li>
-                        <li><a href="#">HTML</a></li>
-                        <li><a href="#">Python</a></li>
-                        <li><a href="#">User Experience</a></li>
+                        <?php foreach ($blog['tags'] as $tag): ?>
+                            <li><a href="#"><?= $tag ?></a></li>
+                        <?php endforeach; ?>
                     </ul>
                 </div>
             </div>
