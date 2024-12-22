@@ -38,7 +38,7 @@
                                 </li>
                                 <li><a href="about.php">About Us</a></li>
                                 <li>
-                                    <a href="blog-grid.php">Blog</a>
+                                    <a href="blog-grid.php">Blogs</a>
                                     <ul>
                                         <!-- <li><a href="blog-grid.php">Blog Grid</a></li> -->
                                         <!-- <li><a href="blog-details.php">Blog Details</a></li> -->
