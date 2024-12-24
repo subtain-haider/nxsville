@@ -31,6 +31,7 @@
                 <div class="footer-widget item-2">
                     <h3 class="widget-header">Contact Us</h3>
                     <ul class="widget-list adress-list">
+                        <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/nxsville.ae/">instagram</a></li>
                         <li><i class="fa-regular fa-envelope"></i><a href="mailto:info@nxsville.com">info@nxsville.com</a></li>
                         <li><i class="fa-sharp fa-regular fa-location-dot"></i>Address: Dubai, Shaik Zayed Road, United Arab Emirates</li>
                     </ul>
