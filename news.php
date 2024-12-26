@@ -14,9 +14,9 @@
 $blogs = [
     [
         'id' => 1,
-        'title' => 'NexusVille Achieves Prestigious ISO 9001, ISO 20000, and ISO 27001 Certifications',
+        'title' => 'NexusVille Achieves Prestigious ISO 9001, ISO 20000, and ISO 27001 Certifications.',
         'intro' => 'Dubai, Date – NexusVille, a leading provider of innovative technology solutions, proudly announces its recent achievement of three internationally recognized certifications—ISO 9001, ISO 20000, and ISO 27001. These certifications demonstrate NexusVille commitment to quality management, IT service excellence, and information security.',
-        'content' => '<strong>ISO 9001: Quality Management System :</strong> <br> ISO 9001 certifies that NexusVille has implemented a robust Quality Management System (QMS) that ensures consistent delivery of high-quality products and services. This certification underscores the company’s dedication to customer satisfaction, continual improvement, and operational efficiency <br> <br>
+        'content' => '<strong>ISO 9001: Quality Management System :</strong>  ISO 9001 certifies that NexusVille has implemented a robust Quality Management System (QMS) that ensures consistent delivery of high-quality products and services. This certification underscores the company’s dedication to customer satisfaction, continual improvement, and operational efficiency. <br> <br>
         <strong> ISO 20000: IT Service Management : </strong> 
       The ISO 20000 certification highlights NexusVille’s ability to design, deliver, and manage IT services effectively. It affirms the company’s structured approach to service management, ensuring reliability, scalability, and responsiveness to client needs. <br>
        <strong><br> ISO 27001: Information Security Management: </strong>  Achieving ISO 27001 demonstrates NexusVille’s strong focus on data security and risk management. This certification validates the implementation of comprehensive security controls to protect sensitive information and mitigate cybersecurity threats. <br>
