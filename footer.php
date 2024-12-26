@@ -12,9 +12,9 @@
                     <h3 class="widget-header">Other Links</h3>
                     <ul class="widget-list">
                         <li><a href="about.php">About</a></li>
-                        <li><a>Contact Us</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Logistic</a></li>
+                        <li><a  href="about.php">Contact Us</a></li>
+                        <!-- <li><a>Services</a></li>
+                        <li><a>Logistic</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -22,8 +22,8 @@
                 <div class="footer-widget item-2">
                     <h3 class="widget-header">The Platform</h3>
                     <ul class="widget-list">
-                        <li><a>Our News</a></li>
-                        <li><a>Transport</a></li>
+                        <li><a href="news.php">Our News</a></li>
+                        <!-- <li><a>Transport</a></li> -->
                     </ul>
                 </div>
             </div>

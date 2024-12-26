@@ -45,6 +45,9 @@
                                     </ul>
                                 </li>
                                 <li>
+                                    <a href="news.php">News</a>
+                                </li>
+                                <li>
                                     <!-- <a href="#">Our products</a> -->
                                     <ul>
                                         <!-- <li><a href="service.php">Service</a></li> -->
@@ -60,7 +63,7 @@
                                         <!-- <li><a href="portfolio-details.php">Portfolio Details</a></li> -->
                                     </ul>
                                 </li>
-                               
+
                                 <li>
                                     <!-- <a href="contact-us.php">Contact</a> -->
                                 </li>
