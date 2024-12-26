@@ -50,10 +50,15 @@ $blog = reset($blog);
     <div class="container">
         <div class="row justify-content-center">
 
-        <div class="col-lg-8">
+            <div class="col-lg-8">
                 <div class="blog-details-content md-pb-30">
                     <div class="blog-details-img mb-20">
-                        <img src="assets/img/images/iso-image.jpeg" alt="post">
+                        <!-- <img src="assets/img/images/iso-image.jpeg" alt="post"> -->
+                    </div>
+                    <div class="d-flex mb-2">
+                        <img src="assets/img/images/cert-1.png" height="315" alt="post">
+                        <img src="assets/img/images/cert-2.png" height="315" alt="post">
+                        <img src="assets/img/images/cert-3.png" height="315" alt="post">
                     </div>
                 </div>
             </div>
