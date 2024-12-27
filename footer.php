@@ -44,9 +44,9 @@
             <div class="copyright-content content-2">
                 <p>Copyright © 2024 <span>Nexusville</span> All Rights Reserved.</p>
                 <ul class="copy-list">
-                    <li><a>Support</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Terms & Condition</a></li>
+                    <!-- <li><a>Support</a></li>
+                    <li><a>Services</a></li> -->
+                    <li><a href="terms-and-conditions.php">Terms & Condition</a></li>
                 </ul>
             </div>
         </div>
